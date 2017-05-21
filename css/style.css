@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+nav#menu {
+    text-align: center;
+    background: #222; 
+}
+
+nav#menu > ul {
+    margin: 0
+}
+
+nav#menu > ul > li.menu-item {
+    display: inline-block;
+    padding: 25px;
+    list-style: none;
+}
+
+nav#menu > ul > li.menu-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav#menu > ul > li.menu-item a:hover {
+    color: #999;
+}
